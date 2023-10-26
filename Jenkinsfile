@@ -19,5 +19,8 @@ pipeline {
                 )
             }
         }
+        stage('End') {
+            echo "Bye Bye"
+        }
     }
 }
