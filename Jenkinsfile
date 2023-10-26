@@ -20,7 +20,9 @@ pipeline {
             }
         }
         stage('End') {
-            echo "Bye Bye"
+            steps {
+                echo "Bye Bye"
+            }
         }
     }
 }
